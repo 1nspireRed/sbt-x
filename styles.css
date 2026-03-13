@@ -19,6 +19,13 @@ body {
   height: auto; 
   width: 100%;
   background-color: #070707;
+  overflow-x: hidden;
+}
+
+.aboutus {
+    height: auto; 
+  width: 100%;
+  background-color: #000;
 }
 
 ::selection {
@@ -1431,4 +1438,570 @@ color: #b8b8be;
   .site-footer__title{
     font-size: 22px;
   }
+}
+
+/* -----------------------------------------------------------СТРАНИЦА OUR SERVICES-----------------------------------------------------*/
+
+.abushero {
+  margin-top: 87px;
+  height: 20vh;
+  width: 100%;
+  padding: 0 5vw;
+  background: url(static/img/sbtx_bg05abus.jpg) center / cover no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.abusherotext {
+  color: #c0c0c0;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+}
+
+.abusblock {
+  width: 100%;
+  padding: 0 5vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #000;
+}
+
+.abusicon {
+  width: 15%;
+  border: 1px solid #575757;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: none;
+  border-bottom: none;
+}
+
+.abusicon span {
+  font-size: 72px;
+  color: #c0c0c0;
+}
+
+.abustext {
+  width: 85%;
+  border: 1px solid #575757;
+  border-bottom: none;
+  background-color: #000;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 25px;
+}
+
+.abustext h4 {
+  color: #b0b0b0;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.1;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.custom-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  background: #7c3aed; 
+  border-radius: 50%;
+}
+
+.main-list,
+.sub-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.main-list > li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.main-list > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  background: #7c3aed;
+  border-radius: 50%;
+}
+
+.sub-list {
+  margin-top: 12px;
+  margin-left: 22px;
+}
+
+.sub-list li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.sub-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 4px;
+  height: 4px;
+  background: #7c3aed;
+  border-radius: 50%;
+}
+
+.abusblock2 {
+  width: 100%;
+  padding: 0 5vw;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.abusblockleft {
+  width: 40%;
+
+  border: 1px solid transparent;
+  border-right: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    /* картинка */
+    url(static/img/sbtx_bg06n.jpg) center / cover no-repeat padding-box,
+
+    /* рамка */
+    linear-gradient(135deg,
+      #786482 0%,
+      #58558b 35%,
+      #786482 70%,
+      #827896 100%) border-box;
+
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+}
+
+.abusblockleft h4 {
+  color: #b0b0b0;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.abusblockright {
+  min-height: 70vh;
+  width: 60%;
+
+  border: 1px solid transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+
+    /* базовый фон */
+    linear-gradient(#000) padding-box,
+
+    /* градиент рамки */
+    linear-gradient(270deg,
+      #575757 0%,
+      #786482 85%,
+      #575757 70%,
+      #786482 100%) border-box;
+
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+}
+
+.abusblockright p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  padding: 30px 100px;
+}
+
+/*---------------------------------------------------------КОНЕЦ Services, НАЧАЛО ABOUT US------------------------------------------*/
+
+
+.serviceshero {
+  margin-top: 87px;
+  height: 20vh;
+  width: 100%;
+  padding: 0 5vw;
+  background: url(static/img/sbtx_bg05abus.jpg) center / cover no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.servicesherotext h3 {
+  color: #c0c0c0;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+}
+
+.servicesherotext p {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+}
+
+
+
+.servicesbox {
+  width: 100%;
+  padding: 0 5vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #000;
+}
+
+.servicesleft {
+  width: 40%;
+  border: 1px solid transparent;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: none;
+
+  background:
+    url(static/img/sbtx_bg07n.jpg) center / cover no-repeat padding-box,
+
+    /* рамка */
+    linear-gradient(135deg,
+      #786482 0%,
+      #58558b 35%,
+      #786482 70%,
+      #827896 100%) border-box;
+
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+}
+
+.servicesleft h3 {
+  color: #6a567e;
+  text-align: center;
+  font-size: 32px;
+}
+
+
+.servicesright {
+  width: 60%;
+  border: 1px solid transparent;
+  background-color: #000;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 80px;
+
+    background:
+
+    /* базовый фон */
+    linear-gradient(#000) padding-box,
+
+    /* градиент рамки */
+    linear-gradient(270deg,
+      #575757 0%,
+      #786482 85%,
+      #575757 70%,
+      #786482 100%) border-box;
+
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+}
+
+.servicesright p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+
+
+.servicesbox2 {
+  width: 100%;
+  padding: 0 5vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #000;
+  margin-bottom: 100px;
+}
+
+.servicesleft2 {
+  width: 60%;
+  border: 1px solid transparent;
+  background-color: #000;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 150px 80px;
+  border-top: none;
+
+    background:
+
+    /* базовый фон */
+    linear-gradient(#000) padding-box,
+
+    /* градиент рамки */
+    linear-gradient(270deg,
+      #575757 0%,
+      #786482 85%,
+      #575757 70%,
+      #786482 100%) border-box;
+
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+}
+
+.servicesleft2 h4 {
+  color: #fff;
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+.servicesleft2 p {
+  text-align: justify;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+
+
+
+
+
+.servicesright2 {
+width: 40%;
+  border: 1px solid transparent;
+  border-left: none;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    url(static/img/sbtx_bg08nnnn.jpg) center / cover no-repeat padding-box,
+
+    /* рамка */
+    linear-gradient(135deg,
+      #786482 0%,
+      #58558b 35%,
+      #786482 70%,
+      #827896 100%) border-box;
+
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+}
+
+.servicesright2 h3 {
+  color: #b0b0b0;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+
+
+
+.getstartedbox {
+  height: 100vh;
+  width: 100%;
+  background: url(static/img/hero.jpg) center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.getstartedboxtext {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  top: 150px;
+  left: 50px;
+}
+
+.getstartedboxtext h3 {
+  color: #fff;
+  align-self: flex-start;
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+.getstartedboxtext h4 {
+  color: #fff;
+  align-self: flex-start;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.getstartedboxshadow {
+  height: 65vh;
+  width: 95%; 
+  background: rgba(0, 0, 0, 0.5) 100%;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.getstartedtext {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.getstartedtext h3 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 300;
+}
+
+
+.getstartedform {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btngetstrt {
+  background: rgba(0, 0, 0, 0.9) 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact-section {
+  width: 60%;
+  color: #fff;
+  text-align: center;
+  padding: 10vh 0;
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-form label {
+  align-self: center;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 50%;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 10px;
+  margin-bottom: 25px;
+  background: #000;
+  border: 1px solid gray;
+  border-radius: 6px;
+  color: #ccc;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.5s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #01FF9F;
+}
+
+.contact-form textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 12px 40px;
+  border: 2px solid #01FF9F;
+  border-radius: 30px;
+  background: transparent;
+  color: #01FF9F;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+.contact-form button:hover {
+  background: #01FF9F;
+  color: #000;
 }
