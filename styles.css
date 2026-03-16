@@ -464,7 +464,7 @@ header nav {
 }
 
 .leftbox {
-  height: 100vh;
+  min-height: 100vh;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -524,7 +524,7 @@ padding: 20px 70px;
 
 
 .rightbox {
-  height: 100vh;
+  min-height: 100vh;
   width: 50%;
   display: flex;
   justify-content: center;
