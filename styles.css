@@ -630,6 +630,10 @@ color: #b8b8be;
   .leftbox {
     border-right: 1px solid transparent;
   }
+
+  .rightbox {
+    height: 140vh;
+  }
 }
 
 
