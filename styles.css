@@ -627,6 +627,10 @@ color: #b8b8be;
     width: 100%;
   }
 
+  .leftboxtext {
+    padding: 20px 30px;
+  }
+
   .leftbox {
     border-right: 1px solid transparent;
   }
