@@ -637,9 +637,13 @@ color: #b8b8be;
 }
 
 @media (max-width: 1000px) and (orientation: landscape) {
-  
+
  .rightbox {
     height: 200vh;
+  }
+
+  .leftboxtext p {
+    font-size: 14px;
   }
 }
 
