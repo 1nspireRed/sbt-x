@@ -185,3 +185,14 @@ onScroll();
   render();
 })();
 
+
+document.addEventListener('DOMContentLoaded', function () {
+  const video = document.getElementById('bg-video');
+  if (video) {
+    video.muted = true;
+    video.play().catch(function (err) {
+      console.log('Video autoplay error:', err);
+    });
+  }
+});
+
