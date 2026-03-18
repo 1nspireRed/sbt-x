@@ -1808,6 +1808,14 @@ color: #b8b8be;
   padding-bottom: 20px;
 }
 
+@media (max-width: 950px) {
+  .serviceshero {
+    height: auto;
+    padding: 30px 5vw;
+    justify-content: center;
+  }
+}
+
 
 
 .servicesbox {
@@ -1884,6 +1892,27 @@ color: #b8b8be;
   text-align: justify;
 }
 
+@media (max-width: 1250px) {
+  .servicesright {
+    padding: 80px 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .servicesbox {
+    flex-direction: column;
+  }
+
+  .servicesleft,
+  .servicesright {
+    width: 100%;
+  }
+
+  .servicesleft {
+    border-right: 1px solid transparent;
+    height: 20vh;
+  }
+}
 
 .servicesbox2 {
   width: 100%;
@@ -1970,8 +1999,33 @@ width: 40%;
   text-align: center;
 }
 
+@media (max-width: 1250px) {
+  
+  .servicesleft2 {
+    padding: 80px 40px;
+  }
+}
 
+@media (max-width: 800px) {
+  .servicesleft2,
+  .servicesright2 {
+    width: 100%;
+  }
 
+  .servicesleft2 {
+    order: 2;
+  }
+
+  .servicesright2 {
+    height: 20vh;
+    border-left: 1px solid transparent;
+    order: 1;
+  }
+
+  .servicesbox2 {
+    flex-direction: column;
+  }
+}
 
 
 .getstartedbox {
@@ -2128,4 +2182,73 @@ width: 40%;
 .contact-form button:hover {
   background: #01FF9F;
   color: #000;
+}
+
+
+@media (max-width: 900px) {
+  .getstartedbox {
+    height: auto;
+    padding: 40px 20px;
+    align-items: center;
+  }
+
+  .getstartedboxtext {
+    position: static;       /* убираем absolute */
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .getstartedboxtext h3,
+  .getstartedboxtext h4 {
+    align-self: center;     /* убираем притяжение влево */
+    text-align: center;
+  }
+
+  .getstartedboxshadow {
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+  }
+
+  .getstartedtext,
+  .getstartedform,
+  .contact-section {
+    width: 100%;
+  }
+
+  .getstartedtext {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contact-form label {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    max-width: 600px;
+    min-width: 0;
+  }
+
+  .btngetstrt {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 }
