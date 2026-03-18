@@ -622,25 +622,26 @@ color: #b8b8be;
     flex-direction: column;
   }
 
+   .leftboxtext {
+    padding: 20px 30px;
+  }
+
   .leftbox, 
   .rightbox {
     width: 100%;
   }
 
-  .leftboxtext {
-    padding: 20px 30px;
-  }
-
   .leftbox {
     border-right: 1px solid transparent;
   }
+}
 
-  .rightbox {
+@media (max-width: 1000px) and (orientation: landscape) {
+  
+ .rightbox {
     height: 200vh;
   }
 }
-
-
 
 
 .mpbox2 {
