@@ -1814,6 +1814,15 @@ color: #b8b8be;
     padding: 30px 5vw;
     justify-content: center;
   }
+
+  .servicesherotext h3 {
+    text-align: center;
+  }
+
+  .servicesherotext p {
+    text-align: justify;
+    padding: 0 20px;
+  }
 }
 
 
@@ -2016,6 +2025,9 @@ width: 40%;
     order: 2;
   }
 
+  .servicesleft2 h4 {
+    text-align: center;
+  }
   .servicesright2 {
     height: 20vh;
     border-left: 1px solid transparent;
