@@ -1564,10 +1564,15 @@ color: #b8b8be;
   padding-bottom: 30px;
 }
 
+@media (max-width: 1700px) {
+  .abushero {
+    height: auto;
+    padding: 30px 5vw;}
+}
+
 @media (max-width: 800px) {
 
   .abushero {
-    height: auto;
     justify-content: center;
   }
 
