@@ -1808,7 +1808,7 @@ color: #b8b8be;
   padding-bottom: 20px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1700px) {
   .serviceshero {
   height: auto;
   padding: 30px 5vw;}
