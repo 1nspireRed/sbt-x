@@ -1741,13 +1741,13 @@ color: #b8b8be;
   background:
 
     /* базовый фон */
-    linear-gradient(#000) padding-box,
+    linear-gradient(0deg, #000, #000) padding-box,
 
     /* градиент рамки */
     linear-gradient(270deg,
       #575757 0%,
-      #786482 85%,
-      #575757 70%,
+      #786482 70%,
+      #575757 85%,
       #786482 100%) border-box;
 
   background-origin: padding-box, border-box;
@@ -1947,7 +1947,7 @@ color: #b8b8be;
 .servicesleft2 {
   width: 60%;
   border: 1px solid transparent;
-  background-color: #000;
+
     display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1958,13 +1958,13 @@ color: #b8b8be;
     background:
 
     /* базовый фон */
-    linear-gradient(#000) padding-box,
+    linear-gradient(0deg, #000, #000) padding-box,
 
     /* градиент рамки */
     linear-gradient(270deg,
       #575757 0%,
-      #786482 85%,
-      #575757 70%,
+      #786482 70%,
+      #575757 85%,
       #786482 100%) border-box;
 
   background-origin: padding-box, border-box;
