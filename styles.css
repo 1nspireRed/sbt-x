@@ -618,7 +618,7 @@ color: #b8b8be;
   opacity: 1;
 }
 
-@media (max-width:600px) {
+@media (max-width:1000px) {
   .mpbox {
     flex-direction: column;
   }
