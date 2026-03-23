@@ -2208,6 +2208,12 @@ width: 40%;
 }
 
 
+@media (max-width: 1200px) {
+  .getstartedboxtext h4 {
+    font-size: 22px;
+  }
+}
+
 @media (max-width: 900px) {
   .getstartedbox {
     height: auto;
@@ -2227,6 +2233,10 @@ width: 40%;
   .getstartedboxtext h4 {
     align-self: center;     /* убираем притяжение влево */
     text-align: center;
+  }
+
+  .getstartedboxtext h4 {
+    font-size: 32px;
   }
 
   .getstartedboxshadow {
