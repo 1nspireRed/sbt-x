@@ -1291,6 +1291,12 @@ color: #b8b8be;
   grid-template-columns: repeat(4, 1fr);
 }
 
+@media (min-width: 2000px) {
+  .crypto{
+    height: 50vh;
+  }
+}
+
 .cryptoblock{
   align-self: center;
   min-width: 320px; 
