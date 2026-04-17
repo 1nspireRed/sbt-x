@@ -1193,6 +1193,12 @@ color: #b8b8be;
 }
 
 
+@media (min-width: 2000px) {
+  .mpbox4text {
+    padding-top: 100px;
+  }
+}
+
 .features{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
