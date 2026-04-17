@@ -1819,6 +1819,10 @@ color: #b8b8be;
   .abusblock2 {
     margin-bottom: 80px;
   }
+
+  .abusblockright {
+    padding: 30px 200px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -1967,6 +1971,12 @@ color: #b8b8be;
   text-align: justify;
 }
 
+@media (min-width: 2000px) {
+  .servicesright {
+    padding: 150px 200px;
+  }
+}
+
 @media (max-width: 1250px) {
   .servicesright {
     padding: 80px 40px;
@@ -2072,6 +2082,12 @@ width: 40%;
   color: #b0b0b0;
   font-size: 32px;
   text-align: center;
+}
+
+@media (min-width: 2000px) {
+  .servicesleft2 {
+    padding: 150px 200px;
+  }
 }
 
 @media (max-width: 1250px) {
