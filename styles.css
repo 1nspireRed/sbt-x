@@ -618,6 +618,12 @@ color: #b8b8be;
   opacity: 1;
 }
 
+@media (min-width: 2000px) {
+  .leftboxtext  {
+    max-width: 700px; 
+  }
+}
+
 @media (max-width:1000px) {
   .mpbox {
     flex-direction: column;
@@ -697,6 +703,12 @@ color: #b8b8be;
   line-height: 1.5;
   font-family: Poppins, sans-serif;
   text-align: justify;
+}
+
+@media (min-width: 2000px) {
+  .rightbox2text {
+    max-width: 700px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1117,6 +1129,12 @@ color: #b8b8be;
 
 .rightbox3text .btn-sbt {
   margin-top: 30px;
+}
+
+@media (min-width:2000px) {
+  .rightbox3text {
+    max-width: 700px;
+  }
 }
 
 @media (max-width: 1200px) {
