@@ -1809,6 +1809,11 @@ color: #b8b8be;
   padding: 30px 100px;
 }
 
+@media (min-width: 2000px) {
+  .abusblock2 {
+    margin-bottom: 80px;
+  }
+}
 
 @media (max-width: 1100px) {
 
