@@ -2350,3 +2350,84 @@ width: 40%;
     padding: 0 20px;
   }
 }
+
+@media (min-width: 2000px) {
+
+  .hero_text {
+    font-size: 20px;
+  }
+
+  .btn-sbt__text {
+    font-size: 13px;
+  }
+
+  .button-style2 {
+    font-size: 13px;
+  }
+
+  .rightbox2text p {
+    font-size: 20px;
+  }
+
+  .stat__label {
+    font-size: 16px;
+  }
+
+  .t-slide__role {
+    font-size: 16px;
+  }
+
+  .rightbox3text p {
+    font-size: 20px;
+  }
+
+  .cryptotext h3 {
+    font-size: 32px;
+  }
+
+  .feature-card {
+    font-size: 18px;
+  }
+
+  .custom-list li,
+  .main-list li,
+  .sub-list li {
+    font-size: 18px;
+  }
+
+  .abustext h4 {
+    font-size: 20px;
+  }
+
+  .abusblockright p {
+    font-size: 20px;
+  }
+
+  .abusblockleft h4 {
+    font-size: 32px;
+  }
+
+  .servicesright p {
+    font-size: 20px;
+  }
+  
+  .servicesleft h3 {
+    font-size: 36px;
+  }
+
+  .servicesherotext p {
+    font-size: 28px;
+  }
+
+  .servicesright2 h3 {
+    font-size: 36px;
+  }
+
+  .servicesleft2 p {
+    font-size: 18px;
+  }
+
+  .servicesleft2 h4 {
+    font-size: 18px;
+  }
+}
