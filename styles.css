@@ -661,7 +661,7 @@ color: #b8b8be;
   }
 }
 
-@media (max-width: 1000px) and (orientation: landscape) {
+@media (max-width: 1300px) and (orientation: landscape) {
 
  .rightbox {
     height: 200vh;
