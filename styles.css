@@ -1719,8 +1719,9 @@ color: #b8b8be;
 
   .abusherotext {
     text-align: center;
-    font-size: 28px;
-    margin: 50px 0;
+    font-size: 24px;
+    margin: 25px 0;
+    padding-bottom: 0;
   }
 
   .abusblock {
@@ -1831,6 +1832,12 @@ color: #b8b8be;
   display: flex;
   flex-direction: row;
   margin-bottom: 200px;
+}
+
+@media (max-width: 700px) {
+  .abusblock2 {
+    margin-bottom: 100px;
+  }
 }
 
 .abusblockleft {
@@ -1973,11 +1980,13 @@ color: #b8b8be;
 
   .servicesherotext h3 {
     text-align: center;
+    font-size: 28px;
   }
 
   .servicesherotext p {
     text-align: justify;
     padding: 0 20px;
+    font-size: 18px;
   }
 }
 
@@ -2203,6 +2212,8 @@ width: 40%;
 
   .servicesbox2 {
     flex-direction: column;
+
+    margin-bottom: 100px;
   }
 }
 
@@ -2389,7 +2400,7 @@ width: 40%;
   }
 
   .getstartedboxtext h4 {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .getstartedboxshadow {
