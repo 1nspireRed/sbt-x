@@ -1891,11 +1891,11 @@ color: #b8b8be;
   .custom-list li,
   .main-list li,
   .sub-list li {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
 
   .abustext h4 {
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
 }
 
@@ -1986,7 +1986,7 @@ color: #b8b8be;
 
 @media (max-width: 1000px) and (orientation: landscape) {
   .abusblockright p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -2304,6 +2304,15 @@ width: 40%;
     flex-direction: column;
 
     margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+  .servicesright p {
+    font-size: 14px;
+  }
+  .servicesleft2 p {
+    font-size: 14px;
   }
 }
 
