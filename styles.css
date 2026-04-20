@@ -749,6 +749,12 @@ color: #b8b8be;
   }
 }
 
+@media (max-width: 1000px) and (orientation: landscape){
+  .mpbox2 {
+    padding: 100px 0;
+  }
+}
+
 .mpblock {
   min-height: 50vh;
   width: 100%;
@@ -1210,7 +1216,12 @@ color: #b8b8be;
     padding: 20px 0;
     font-size: 32px;
   }
+}
 
+@media (max-width: 1000px) and (orientation: landscape) {
+  .mpbox3 {
+    padding-top: 100px;
+  }
 }
 
 .mpbox4 {
@@ -1370,7 +1381,12 @@ color: #b8b8be;
   position: relative;
   height: 40vh;
   width: 100%;
-  background-color: #000000;
+}
+
+@media (max-width: 600px) {
+  .bgimgwrapper {
+    background-color: #000000;
+  }
 }
 
 .bgimg {
@@ -1435,6 +1451,12 @@ color: #b8b8be;
   display: none;
   color: #7627F5;
   font-size: 36px;
+}
+
+@media (orientation: landscape) and (max-width: 1000px) {
+.grid {
+  padding-top: 20px;
+}
 }
 
 @media (max-width:1000px) {
