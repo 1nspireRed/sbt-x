@@ -810,6 +810,12 @@ color: #b8b8be;
   font-weight: 200;
 }
 
+@media (max-width:1000px) and (orientation: landscape) {
+  .mpblockbtn {
+    margin: 30px 0;
+  }
+}
+
 .textillate{
   width: 100%;
   margin: 0;
