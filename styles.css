@@ -634,7 +634,11 @@ color: #b8b8be;
   }
 
    .leftboxtext {
-    padding: 20px 30px;
+    padding: 20px 100px;
+  }
+
+  .leftboxtext p {
+    font-size: 18px;
   }
 
   .leftbox, 
@@ -644,6 +648,22 @@ color: #b8b8be;
 
   .leftbox {
     border-right: 1px solid transparent;
+  }
+}
+
+@media (max-width: 600px) {
+   .leftboxtext {
+    padding: 20px 30px;
+  }
+
+  .leftboxtext p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 390px) {
+  .leftboxtext h3 {
+    font-size: 28px;
   }
 }
 
