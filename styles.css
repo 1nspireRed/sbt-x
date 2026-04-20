@@ -1420,6 +1420,7 @@ color: #b8b8be;
   justify-content: center;
   flex-direction: column;
   min-height: 120px;
+  transform: translateZ(0);
 }
 
 .gridtext p {
