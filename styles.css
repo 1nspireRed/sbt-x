@@ -1751,14 +1751,17 @@ color: #b8b8be;
 
   .abushero {
     justify-content: center;
+    padding: 0 5vw;
   }
 
   .abusherotext {
     text-align: center;
     font-size: 24px;
-    margin: 25px 0;
+    margin: 20px 0;
     padding-bottom: 0;
+    padding-top: 40px;
   }
+
 
   .abusblock {
     flex-direction: column;
@@ -2021,13 +2024,13 @@ color: #b8b8be;
   }
 
   .servicesherotext h3 {
-    text-align: center;
+    text-align: start;
     font-size: 28px;
   }
 
   .servicesherotext p {
     text-align: justify;
-    padding: 0 20px;
+    padding: 0 0;
     font-size: 18px;
   }
 }
