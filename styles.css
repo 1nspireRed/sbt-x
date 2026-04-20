@@ -769,6 +769,21 @@ color: #b8b8be;
   }
 }
 
+@media (max-width:1300px) and (orientation: landscape) {
+  .mpbox2 {
+    flex-direction: column;
+  }
+
+  .leftbox2, .rightbox2 {
+    width: 100%;
+  }
+
+  .rightbox2 {
+    padding: 0 100px;
+    min-height: auto;
+  }
+}
+
 .mpblock {
   min-height: 50vh;
   width: 100%;
@@ -1279,6 +1294,12 @@ color: #b8b8be;
   }
 }
 
+@media (max-width: 1100px) {
+  .mpbox4 {
+    height: 25vh;
+  }
+}
+
 .features{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1765,6 +1786,12 @@ color: #b8b8be;
 
    .abusherotext {
     margin: 20px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .abusherotext {
+    font-size: 20px;
   }
 }
 
