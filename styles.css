@@ -661,12 +661,6 @@ color: #b8b8be;
   }
 }
 
-@media (max-width: 400px) {
-  .leftboxtext h3 {
-    font-size: 24px;
-  }
-}
-
 @media (max-width: 1000px) and (orientation: landscape) {
 
  .rightbox {
@@ -680,7 +674,7 @@ color: #b8b8be;
 
 @media (max-width: 390px) {
   .leftboxtext h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 
