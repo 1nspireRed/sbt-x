@@ -1794,6 +1794,17 @@ color: #b8b8be;
    .abusherotext {
     margin: 20px 0;
   }
+
+  .custom-list li,
+  .main-list li,
+  .sub-list li {
+    font-size: 12px;
+  }
+
+  .abustext h4 {
+    font-size: 14px;
+  }
+
 }
 
 @media (max-width: 400px) {
