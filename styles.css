@@ -1259,6 +1259,12 @@ color: #b8b8be;
   }
 }
 
+@media (max-width: 1000px) and (orientation: landscape) {
+  .mpbox4text {
+    padding: 50px 0;
+  }
+}
+
 .features{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
