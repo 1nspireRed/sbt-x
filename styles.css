@@ -1973,6 +1973,12 @@ color: #b8b8be;
   padding: 30px 100px;
 }
 
+@media (max-width: 1000px) and (orientation: landscape) {
+  .abusblockright p {
+    font-size: 12px;
+  }
+}
+
 @media (min-width: 2000px) {
 
   .abusblockright {
