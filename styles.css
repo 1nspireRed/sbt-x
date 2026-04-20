@@ -2477,7 +2477,7 @@ width: 40%;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .getstartedbox {
     height: auto;
     padding: 40px 20px;
