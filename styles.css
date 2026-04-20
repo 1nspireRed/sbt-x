@@ -1795,16 +1795,6 @@ color: #b8b8be;
     margin: 20px 0;
   }
 
-  .custom-list li,
-  .main-list li,
-  .sub-list li {
-    font-size: 12px;
-  }
-
-  .abustext h4 {
-    font-size: 14px;
-  }
-
 }
 
 @media (max-width: 400px) {
@@ -1883,6 +1873,19 @@ color: #b8b8be;
   height: 4px;
   background: #7c3aed;
   border-radius: 50%;
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+
+  .custom-list li,
+  .main-list li,
+  .sub-list li {
+    font-size: 12px;
+  }
+
+  .abustext h4 {
+    font-size: 14px;
+  }
 }
 
 .abusblock2 {
