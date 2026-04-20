@@ -1990,6 +1990,16 @@ color: #b8b8be;
   }
 }
 
+@media (max-width: 400px) {
+  .servicesherotext h3 {
+    font-size: 24px;
+  }
+
+  .servicesherotext p {
+    font-size: 16px;
+  }
+}
+
 
 
 .servicesbox {
