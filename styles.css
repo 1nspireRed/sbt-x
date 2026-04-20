@@ -782,6 +782,10 @@ color: #b8b8be;
     padding: 0 100px;
     min-height: auto;
   }
+
+  .rightbox2text p {
+    font-size: 12px;
+  }
 }
 
 .mpblock {
