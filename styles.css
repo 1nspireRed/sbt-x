@@ -669,7 +669,7 @@ color: #b8b8be;
   }
 
   .leftboxtext p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -785,7 +785,7 @@ color: #b8b8be;
   }
 
   .rightbox2text p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -1261,6 +1261,10 @@ color: #b8b8be;
 @media (max-width: 1000px) and (orientation: landscape) {
   .mpbox3 {
     padding-top: 100px;
+  }
+
+  .rightbox3text p {
+    font-size: 14px;
   }
 }
 
