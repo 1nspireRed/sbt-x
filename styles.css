@@ -1886,11 +1886,11 @@ color: #b8b8be;
   .custom-list li,
   .main-list li,
   .sub-list li {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 
   .abustext h4 {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
 
