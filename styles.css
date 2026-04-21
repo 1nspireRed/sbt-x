@@ -2095,11 +2095,16 @@ color: #b8b8be;
   }
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1000px) and (orientation: landscape) {
+  .serviceshero {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 950px) {
   .serviceshero {
     justify-content: center;
     padding-bottom: 10px;
-    height: 30vh;
   }
 
   .servicesherotext h3 {
