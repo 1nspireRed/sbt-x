@@ -1443,6 +1443,12 @@ color: #b8b8be;
   height: 40vh;
   width: 100%;
 }
+@media (max-width: 1000px) {
+  .bgimgwrapper {
+    height: 50vh;
+    padding: 10px 0;
+  }
+}
 
 @media (max-width: 600px) {
   .bgimgwrapper {
@@ -2234,6 +2240,7 @@ color: #b8b8be;
 
   .servicesleft {
     border-right: 1px solid transparent;
+    border-bottom: none;
     height: 20vh;
   }
 }
