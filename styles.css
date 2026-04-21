@@ -1767,6 +1767,16 @@ color: #b8b8be;
     padding: 30px 5vw;}
 }
 
+@media (max-width: 1200px) and (min-width: 1001px) {
+  .abusherotext {
+    padding-bottom: 0;
+  }
+
+  .abushero {
+    padding-bottom: 10px;
+  }
+}
+
 @media (max-width: 1000px) {
 
   .abushero {
@@ -2057,6 +2067,15 @@ color: #b8b8be;
   padding: 30px 5vw;}
 }
 
+@media (max-width:1200px) and (min-width: 1001px) {
+  .serviceshero {
+    padding-bottom: 0;
+  }
+
+  .servicesherotext p {
+    padding-bottom: 10px;
+  }
+}
 
 @media (max-width: 950px) {
   .serviceshero {
