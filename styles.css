@@ -662,7 +662,7 @@ color: #b8b8be;
   }
 }
 
-@media (max-width: 1300px) and (orientation: landscape) {
+@media (max-width: 1000px) and (orientation: landscape) {
 
  .rightbox {
     height: 200vh;
@@ -1303,15 +1303,20 @@ color: #b8b8be;
   }
 }
 
+@media (max-width: 1100px) {
+  .mpbox4 {
+    height: 25vh;
+  }
+}
+
 @media (max-width: 1000px) and (orientation: landscape) {
   .mpbox4text {
     padding: 50px 0;
   }
-}
 
-@media (max-width: 1100px) {
   .mpbox4 {
-    height: 25vh;
+    height: auto;
+    padding: 30px 0;
   }
 }
 
@@ -2056,6 +2061,7 @@ color: #b8b8be;
 @media (max-width: 950px) {
   .serviceshero {
     justify-content: center;
+    padding-bottom: 10px;
   }
 
   .servicesherotext h3 {
@@ -2314,6 +2320,10 @@ width: 40%;
   .servicesleft2 p {
     font-size: 14px;
   }
+
+  .servicesbox2 {
+    margin-bottom: 100px;
+  }
 }
 
 
@@ -2519,7 +2529,7 @@ width: 40%;
   }
 
   .getstartedtext {
-    margin-bottom: 20px;
+    margin-top: 80px;
     text-align: center;
   }
 
