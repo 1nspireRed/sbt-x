@@ -2095,10 +2095,11 @@ color: #b8b8be;
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 970px) {
   .serviceshero {
     justify-content: center;
     padding-bottom: 10px;
+    height: 30vh;
   }
 
   .servicesherotext h3 {
