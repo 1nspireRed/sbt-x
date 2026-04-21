@@ -1761,7 +1761,7 @@ color: #b8b8be;
   padding-bottom: 30px;
 }
 
-@media (max-width: 1400px) and (min-width: 1200px) {
+@media (max-width: 1700px) and (min-width: 1200px) {
   .abushero {
     padding-bottom: 10px;
   }
@@ -2071,11 +2071,18 @@ color: #b8b8be;
   padding-bottom: 20px;
 }
 
-@media (max-width: 1700px) {
+
+@media (max-width: 1700px) and (min-width: 1200px) {
   .serviceshero {
-  height: auto;
-  padding: 30px 5vw;}
+    padding-bottom: 10px;
+  }
+
+  .servicesherotext p {
+    padding-bottom: 0;
+  }
 }
+
+
 
 @media (max-width:1200px) and (min-width: 1001px) {
   .serviceshero {
