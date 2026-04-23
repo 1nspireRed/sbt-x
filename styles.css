@@ -1452,6 +1452,10 @@ color: #b8b8be;
     height: auto;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .cryptotext {
+    padding-bottom: 30px;
+  }
 }
 
 
