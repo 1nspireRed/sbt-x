@@ -650,6 +650,10 @@ color: #b8b8be;
   .leftbox {
     border-right: 1px solid transparent;
   }
+
+  .rightbox {
+    border-top: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -746,7 +750,7 @@ color: #b8b8be;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .mpbox2 {
     flex-direction: column;
     min-height: auto;
@@ -761,6 +765,11 @@ color: #b8b8be;
   .leftbox2 {
     min-height: 40vh;
     background-size: cover;
+  }
+
+  .rightbox2 {
+    min-height: auto;
+    padding: 50px 20px;
   }
 }
 
@@ -1221,6 +1230,12 @@ color: #b8b8be;
   .leftbox3 {
     width: 50%;
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 500px) {
+  .mpbox3 {
+    padding-top: 80px;
   }
 }
 
@@ -2043,6 +2058,7 @@ color: #b8b8be;
 
   .abusblockright {
     width: 100%;
+    border-top: none;
   }
 
   .abusblockright p {
@@ -2228,7 +2244,7 @@ color: #b8b8be;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .servicesbox {
     flex-direction: column;
   }
@@ -2343,7 +2359,7 @@ width: 40%;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .servicesleft2,
   .servicesright2 {
     width: 100%;
