@@ -777,6 +777,11 @@ color: #b8b8be;
   .mpbox2 {
     padding: 100px 0;
   }
+
+  .leftbox2 {
+    min-height: 80vh;
+    background-size: contain;
+  }
 }
 
 @media (max-width:1300px) and (orientation: landscape) {
@@ -1292,6 +1297,10 @@ color: #b8b8be;
 
   .rightbox3text p {
     font-size: 14px;
+  }
+
+  .leftbox3 {
+    height: 40vh;
   }
 }
 
