@@ -841,6 +841,7 @@ color: #b8b8be;
   .mpblock {
     min-height: 40vh;
     justify-content: flex-start;
+    padding-top: 30px;
   }
 }
 
