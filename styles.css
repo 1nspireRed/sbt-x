@@ -1008,7 +1008,7 @@ color: #b8b8be;
   text-align: center;
   padding: 10px;
   margin: 0;
-  font-size: clamp(28px, 3.6vw, 56px);
+  font-size: clamp(28px, 3vw, 56px);
   font-weight: 300;
   color: rgba(255,255,255,0.75);
 }
@@ -1094,6 +1094,7 @@ color: #b8b8be;
   font-size: clamp(14px, 1.2vw, 18px);
   line-height: 1.7;
   opacity: 0.9;
+  font-family: "Times New Roman", Times, serif !important;
 }
 
 .t-slide__name{
@@ -1107,6 +1108,12 @@ color: #b8b8be;
   font-size: 14px;
   opacity: 0.8;
   align-self: flex-start;
+}
+
+@media (min-width: 1200px) and (max-width: 1900px) {
+  .t-slide__role {
+    font-size: 16px;}
+
 }
 
 .t-slider__arrow{
@@ -1326,6 +1333,12 @@ color: #b8b8be;
   font-weight: 300;
 }
 
+@media (min-width: 1200px) {
+  .mpbox4text {
+    padding-top: 20px;
+  }
+}
+
 
 @media (min-width: 2000px) {
   .mpbox4text {
@@ -1455,7 +1468,7 @@ color: #b8b8be;
   z-index: 2;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1400px) {
 
   .crypto {
     height: auto;
