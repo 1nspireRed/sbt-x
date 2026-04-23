@@ -1552,6 +1552,12 @@ color: #b8b8be;
   font-size: 36px;
 }
 
+@media (max-width: 1500px) and (min-width: 1000px) and (orientation: landscape) {
+  .grid {
+    margin-bottom: 100px;
+  }
+}
+
 @media (orientation: landscape) and (max-width: 1000px) {
 .grid {
   padding-top: 20px;
@@ -2400,6 +2406,13 @@ width: 40%;
     margin-bottom: 100px;
   }
 }
+
+@media (max-width: 1500px) and (min-width: 1000px) and (orientation: landscape) {
+  .servicesbox2 {
+    margin-bottom: 100px;
+  }
+}
+
 
 @media (max-width: 1000px) and (orientation: landscape) {
   .servicesright p {
