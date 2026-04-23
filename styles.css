@@ -837,6 +837,13 @@ color: #b8b8be;
   font-weight: 200;
 }
 
+@media (min-width: 1300px) and (max-width: 1800px) {
+  .mpblock {
+    min-height: 40vh;
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width:1000px) and (orientation: landscape) {
   .mpblockbtn {
     margin: 30px 0;
@@ -1094,7 +1101,6 @@ color: #b8b8be;
   font-size: clamp(14px, 1.2vw, 18px);
   line-height: 1.7;
   opacity: 0.9;
-  font-family: "Times New Roman", Times, serif !important;
 }
 
 .t-slide__name{
