@@ -1261,7 +1261,7 @@ color: #b8b8be;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .mpbox3 {
     flex-direction: column;
   }
