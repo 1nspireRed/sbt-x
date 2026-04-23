@@ -798,6 +798,18 @@ color: #b8b8be;
   }
 }
 
+@media (max-width: 600px) {
+  .mpbox2 {
+    padding: 0 20px;
+  }
+
+  .rightbox2 {
+    padding-top: 0;
+  }
+
+  .rightbox2 {}
+}
+
 .mpblock {
   min-height: 50vh;
   width: 100%;
