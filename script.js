@@ -46,29 +46,43 @@ onScroll();
 
   const wait = (ms) => new Promise(r => setTimeout(r, ms));
 
-  function render(text){
-    root.classList.remove("ti-line-out");
-    root.innerHTML = "";
+ function render(text){
+  root.classList.remove("ti-line-out");
+  root.innerHTML = "";
 
-    // чтобы screen reader не “читал” по буквам:
-    root.setAttribute("aria-label", text);
+  root.setAttribute("aria-label", text);
 
-    const wrap = document.createElement("span");
-    wrap.style.display = "inline-block";
+  const wrap = document.createElement("span");
+  wrap.style.display = "inline-block";
 
-    [...text].forEach((ch, idx) => {
+  let letterIndex = 0;
+  const words = text.split(" ");
+
+  words.forEach((word, wordIdx) => {
+    const wordSpan = document.createElement("span");
+    wordSpan.className = "ti-word";
+
+    [...word].forEach((ch) => {
       const s = document.createElement("span");
       s.className = "ti-letter";
-      s.textContent = (ch === " ") ? "\u00A0" : ch;
-      s.style.animationDelay = `${idx * letterDelay}ms`;
-      wrap.appendChild(s);
+      s.textContent = ch;
+      s.style.animationDelay = `${letterIndex * letterDelay}ms`;
+      wordSpan.appendChild(s);
+      letterIndex++;
     });
 
-    root.appendChild(wrap);
+    wrap.appendChild(wordSpan);
 
-    // время, когда последняя буква точно уже появилась
-    return (text.length - 1) * letterDelay + inAnimMs;
-  }
+    if (wordIdx < words.length - 1) {
+      wrap.appendChild(document.createTextNode(" "));
+      letterIndex++;
+    }
+  });
+
+  root.appendChild(wrap);
+
+  return (text.length - 1) * letterDelay + inAnimMs;
+}
 
   async function loop(){
     while (true){

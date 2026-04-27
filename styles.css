@@ -866,6 +866,13 @@ color: #b8b8be;
   word-break: normal;
   overflow-wrap: normal;
   hyphens: none;
+  overflow-wrap: normal;
+  word-break: keep-all;
+}
+
+.ti-word {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .ti-letter{
@@ -909,11 +916,6 @@ color: #b8b8be;
   to { opacity: 0; }
 }
 
-@media (max-width: 420px) {
-
-  .textillate {
-  font-size: clamp(8px, 4vw, 32px);}
-}
 
 .mpblock .button-style2{
   margin-top: 30px; 
@@ -2465,237 +2467,128 @@ width: 40%;
 
 
 .getstartedbox {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
-  background: url(static/img/hero.jpg) center/cover no-repeat;
+  padding: 5vh 5vw;
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url("static/img/hero.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   position: relative;
+  line-height: 1.4;
 }
 
 .getstartedboxtext {
-  position: absolute;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  flex-direction: column;
-  top: 150px;
-  left: 50px;
+  padding: 50px 0;
 }
 
 .getstartedboxtext h3 {
-  color: #fff;
-  align-self: flex-start;
   font-size: 36px;
+  color: #fff;
+  font-weight: 600;
 }
 
 .getstartedboxtext h4 {
-  color: #fff;
-  align-self: flex-start;
   font-size: 32px;
-  font-weight: 300;
+  color: #fff;
+  font-weight: 400;
 }
 
-.getstartedboxshadow {
-  height: 65vh;
-  width: 95%; 
-  background: rgba(0, 0, 0, 0.7) 100%;
-  margin-top: 200px;
+.mailtext {
+  font-size: 24px;
+  color: #fff;
+}
+
+.mailbox {
+  position: relative;
   display: flex;
   flex-direction: row;
+  padding: 5vh 0;
 }
 
-
-
-.getstartedtext {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+.mailbox span {
+  font-size: 28px;
+  color: #7627F5;
+  padding-right: 20px;
+  margin-top: 4px;
 }
 
-.getstartedtext h3 {
-  color: #fff;
+.mailbox p {
   font-size: 24px;
-  line-height: 1.5;
-  font-weight: 300;
-}
-
-
-.getstartedform {
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btngetstrt {
-  background: rgba(0, 0, 0, 0.9) 100%;
-  height: 50px;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btngetstrt span {
   color: #fff;
-  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;   /* толщина линии */
+  text-underline-offset: 6px;       /* отступ от текста */
 }
 
 
-
-.contact-section {
-  width: 60%;
+.reqtext h4 {
+  font-size: 24px;
   color: #fff;
-  text-align: center;
-  padding: 10vh 0;
+  font-weight: 400;
 }
 
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.contact-form label {
-  align-self: center;
-  margin-bottom: 5px;
+.reqtext li {
+  position: relative;   /* 👈 обязательно */
+  padding-left: 16px;   /* 👈 отступ под кружок */
+  line-height: 1.8;
   color: #fff;
   font-size: 18px;
 }
 
-.contact-form input,
-.contact-form textarea {
-  width: 50%;
-  max-width: 600px;
-  min-width: 300px;
-  padding: 10px;
-  margin-bottom: 25px;
-  background: #000;
-  border: 1px solid gray;
-  border-radius: 6px;
-  color: #ccc;
-  font-family: inherit;
-  font-size: 16px;
-  outline: none;
-  transition: border-color 0.5s ease;
+.reqtext li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;             /* вертикально по центру */
+  transform: translateY(-50%);
+  width: 10px;
+  height: 2px;
+  background: #7c3aed;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-color: #01FF9F;
-}
-
-.contact-form textarea {
-  min-height: 60px;
-  resize: vertical;
-}
-
-.contact-form button {
-  margin-top: 10px;
-  padding: 12px 40px;
-  border: 2px solid #01FF9F;
-  border-radius: 30px;
-  background: transparent;
-  color: #01FF9F;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.6s ease;
-}
-
-.contact-form button:hover {
-  background: #01FF9F;
-  color: #000;
-}
-
-
-@media (max-width: 1200px) {
-  .getstartedboxtext h4 {
-    font-size: 22px;
-  }
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (orientation: landscape) {
   .getstartedbox {
     height: auto;
-    padding: 40px 20px;
-    align-items: center;
+    padding: 20vh 5vw;
   }
 
   .getstartedboxtext {
-    position: static;       /* убираем absolute */
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    margin-top: 100px;
-    background: rgba(0, 0, 0, 0.7) 100%;
+    padding: 30px 0;
   }
 
-  .getstartedboxtext h3,
-  .getstartedboxtext h4 {
-    align-self: center;     /* убираем притяжение влево */
-    text-align: center;
+  .getstartedboxtext h3 {
+    font-size: 28px;
   }
 
   .getstartedboxtext h4 {
     font-size: 24px;
   }
 
-  .getstartedboxshadow {
-    height: auto;
-    width: 100%;
-    margin-top: 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 20px;
+  .mailtext {
+    font-size: 18px;
   }
 
-  .getstartedtext,
-  .getstartedform,
-  .contact-section {
-    width: 100%;
+  .mailbox span {
+    font-size: 24px;
   }
 
-  .getstartedtext {
-    margin-top: 80px;
-    text-align: center;
+  .mailbox p {
+    font-size: 18px;
   }
 
-  .contact-form {
-    width: 100%;
-    align-items: center;
+  .reqtext h4 {
+    font-size: 20px;
   }
 
-  .contact-form label {
-    width: 100%;
-    max-width: 600px;
-    text-align: center;
-    align-self: center;
-  }
-
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    max-width: 600px;
-    min-width: 0;
-  }
-
-  .btngetstrt {
-    width: fit-content;
-    margin: 0 auto;
-    padding: 0 20px;
+  .reqtext li {
+    font-size: 16px;
   }
 }
+
 
 @media (min-width: 2000px) {
 
