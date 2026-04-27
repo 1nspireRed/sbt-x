@@ -909,6 +909,12 @@ color: #b8b8be;
   to { opacity: 0; }
 }
 
+@media (max-width: 420px) {
+
+  .textillate {
+  font-size: clamp(8px, 4vw, 32px);}
+}
+
 .mpblock .button-style2{
   margin-top: 30px; 
 }
