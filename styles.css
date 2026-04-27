@@ -2550,10 +2550,49 @@ width: 40%;
   background: #7c3aed;
 }
 
-@media (max-width: 1000px) and (orientation: landscape) {
+@media (max-width: 500px) {
   .getstartedbox {
     height: auto;
     padding: 20vh 5vw;
+  }
+
+  .getstartedboxtext {
+    padding: 30px 0;
+  }
+
+  .getstartedboxtext h3 {
+    font-size: 28px;
+  }
+
+  .getstartedboxtext h4 {
+    font-size: 24px;
+  }
+
+  .mailtext {
+    font-size: 18px;
+  }
+
+  .mailbox span {
+    font-size: 24px;
+  }
+
+  .mailbox p {
+    font-size: 18px;
+  }
+
+  .reqtext h4 {
+    font-size: 20px;
+  }
+
+  .reqtext li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+  .getstartedbox {
+    height: auto;
+    padding: 20vh 7vw;
   }
 
   .getstartedboxtext {
