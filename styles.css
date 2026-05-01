@@ -2557,7 +2557,7 @@ width: 40%;
   background: #7c3aed;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .getstartedbox {
     height: auto;
     padding: 20vh 5vw;
