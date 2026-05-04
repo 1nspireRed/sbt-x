@@ -750,6 +750,15 @@ color: #b8b8be;
   }
 }
 
+
+
+@media (min-width: 1900px) and (max-width: 1940px) {
+  .leftbox2,
+  .rightbox2 {
+    min-height: 80vh;
+  }
+}
+
 @media (max-width: 1000px) {
   .mpbox2 {
     flex-direction: column;
@@ -837,8 +846,10 @@ color: #b8b8be;
   font-weight: 200;
 }
 
-@media (min-width: 1900px) {
-  .mpblock
+@media (min-width: 2000px) {
+  .mpblock {
+    min-height: 30vh;
+  }
 }
 
 @media (min-width: 1300px) and (max-width: 1800px) {
