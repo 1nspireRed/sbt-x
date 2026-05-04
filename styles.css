@@ -2720,7 +2720,7 @@ width: 40%;
     font-size: 20px;
   }
 
-  .abusherotext {
-    font-size: 36px !important;
+  .abusherotext h3 {
+    font-size: 36px;
   }
 }
