@@ -837,6 +837,10 @@ color: #b8b8be;
   font-weight: 200;
 }
 
+@media (min-width: 1900px) {
+  .mpblock
+}
+
 @media (min-width: 1300px) and (max-width: 1800px) {
   .mpblock {
     min-height: 40vh;
@@ -2717,6 +2721,6 @@ width: 40%;
   }
 
   .abusherotext {
-    font-size: 36px;
+    font-size: 36px !important;
   }
 }
