@@ -2777,8 +2777,11 @@ width: 40%;
     max-width: 100%;
   }
 
+  .t-slider {
+    width: min(1500px, 90vw);
+  }
+
   .t-slide__quote {
-    max-width: 1600px;
     font-size: clamp(24px, 1.2vw, 18px);
   }
 
