@@ -2782,6 +2782,7 @@ width: 40%;
   }
 
   .t-slide__quote {
+    max-width: 1900px;
     font-size: clamp(24px, 1.2vw, 18px);
   }
 
