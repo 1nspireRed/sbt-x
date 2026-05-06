@@ -2789,4 +2789,8 @@ width: 40%;
   .cryptoblock {
     min-width: 450px;
   }
+
+  .custom-list li, .main-list li, .sub-list li {
+    font-size: 20px;
+  }
 }
