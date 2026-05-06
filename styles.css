@@ -2743,3 +2743,37 @@ width: 40%;
     font-size: 36px;
   }
 }
+
+/* 2к мониторы */
+
+@media (min-width: 2000px) {
+  .mpblocktext h3 {
+    font-size: 54px;
+  }
+
+  .textillate {
+    font-size: clamp(44px, 5vw, 32px);
+  }
+
+  .mpblock .button-style2 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 140px;
+  }
+
+  .numbers__grid {
+    gap: clamp(220px, 15vw, 100px);
+  }
+
+  .stat__value {
+    font-size: clamp(94px, 5vw, 72px);
+  }
+
+  .stat__label {
+    font-size: 20px;
+  }
+
+  .stat__line {
+    max-width: 100%;
+  }
+}
