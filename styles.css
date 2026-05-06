@@ -2776,4 +2776,13 @@ width: 40%;
   .stat__line {
     max-width: 100%;
   }
+
+  .t-slide__quote {
+    max-width: 1600px;
+    font-size: clamp(24px, 1.2vw, 18px);
+  }
+
+  .cryptoblock {
+    min-width: 450px;
+  }
 }
