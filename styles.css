@@ -842,7 +842,7 @@ color: #b8b8be;
 }
 
 .mpblocktext h3 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 200;
 }
 
@@ -1906,7 +1906,6 @@ color: #b8b8be;
 
 @media (max-width: 1700px) {
   .abushero {
-    height: auto;
     padding: 30px 5vw;}
 }
 
