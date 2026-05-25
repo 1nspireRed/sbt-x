@@ -1988,7 +1988,7 @@ color: #b8b8be;
 @media (max-width: 1000px) and (orientation: landscape) {
 
   .abushero {
-    height: auto;
+    height: 35vh;
   }
 
    .abusherotext {
