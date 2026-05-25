@@ -466,6 +466,7 @@ header nav {
 }
 
 .leftbox {
+  position: relative;
   min-height: 100vh;
   width: 50%;
   display: flex;
@@ -473,7 +474,6 @@ header nav {
 
   border: 1px solid transparent;
   border-right: none;
-
   background:
     /* 1. картинка */
     url(static/img/dolphin.jpg) center / cover no-repeat padding-box,
@@ -492,6 +492,11 @@ header nav {
   background-position: center;
   align-items: center;
   justify-content: center;
+}
+
+.leftbox::before {
+  content: "";
+  display: none;
 }
 
 .leftboxtext {
@@ -520,6 +525,27 @@ padding: 20px 70px;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
   background: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 600px) {
+  .leftbox::before {
+    display: block;
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .leftboxtext {
+    position: relative;
+    z-index: 2;
+  }
+
+  .leftboxtext h3,
+  .leftboxtext p {
+    background: none;
+  }
 }
 
 
