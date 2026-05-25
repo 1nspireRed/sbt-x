@@ -1028,6 +1028,12 @@ color: #b8b8be;
   border-radius: 40px;
 }
 
+@media (max-width: 990px) and (orientation: landscape) {
+  .numbers {
+    padding-top: 50px;
+  }
+}
+
 /* адаптив */
 @media (max-width: 820px){
   .numbers__grid{ grid-template-columns: 1fr; }
