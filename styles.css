@@ -1965,6 +1965,12 @@ color: #b8b8be;
 
 }
 
+@media (max-width: 500px) {
+  .abushero {
+    height: 25vh;
+  }
+}
+
 @media (max-width: 400px) {
   .abusherotext {
     font-size: 20px;
